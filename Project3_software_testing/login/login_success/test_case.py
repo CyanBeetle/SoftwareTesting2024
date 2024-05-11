@@ -7,7 +7,7 @@ import time
 class Test_login(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Edge()
         self.driver.get("https://moodle.org/demo")
 
     def test_login_success(self):
